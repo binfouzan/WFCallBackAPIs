@@ -1,0 +1,16 @@
+ValueKind = Object : "{"Id":"c38c066c-13cd-e248-f1ac-8f596a504a19","StateName":"Activity","ActivityName":"Activity","SchemeId":"dbb8200d-5db7-4198-aae2-f7730aaa74f0","SchemeCode":"SampleWF","PreviousState":null,"PreviousStateForDirect":null,"PreviousStateForReverse":null,"PreviousActivity":null,"PreviousActivityForDirect":null,"PreviousActivityForReverse":null,"ParentProcessId":null,"RootProcessId":"c38c066c-13cd-e248-f1ac-8f596a504a19","IsDeterminingParametersChanged":false,"InstanceStatus":254,"IsSubProcess":false,"TenantId":null,"Transitions":null,"History":null,"ProcessParameters":{"creatorIdentity":"user1"},"SubProcessIds":[]}"
+
+
+
+
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+  HResult=0x80131500
+  Message=The best overloaded method match for 'WFCallBackApi.Controllers.CallBackApisController.IsInRole(string, string)' has some invalid arguments
+  Source=<Cannot evaluate the exception source>
+  StackTrace:
+<Cannot evaluate the exception stack trace>
+
+  This exception was originally thrown at this call stack:
+    [External Code]
+    WFCallBackApi.Controllers.CallBackApisController.executecondition(WFCallBackApi.Controllers.WfQuery) in CallBackApisController.cs
+    [External Code]
